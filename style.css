@@ -159,7 +159,7 @@ body {
 
 .servicesBg {
     
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(img/servicesBg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -229,7 +229,7 @@ body {
 }
 
 .orderBg {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(img/orderBg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -244,6 +244,7 @@ body {
     font-size: 22px;
     justify-content: space-between;
     margin-top: 200px;
+    margin-bottom: 20px;
 }
 
 .orderSvg {
@@ -263,7 +264,7 @@ body {
 }
 
 .galeriBg {
-    height: 100vh;
+    min-height: 100vh;
     background-image: url(img/galeriBg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -299,4 +300,88 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.cleanersBg{
+    min-height: 110vh;
+    background-image: url(img/cleanersBg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cleanersAllText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Marck Script", sans-serif;
+    font-size: 48px;
+    padding-top: 80px;
+}
+
+.cleanersText {
+    font-size: 32px;
+}
+
+.cleanersContent {
+    display: flex;
+    width: 344px;
+    height: 420px;
+    flex-direction: column;
+}
+
+.cleanersImg {
+    background-image: url(img/firstCleaner.jpg);
+    height: 320px;
+    width: 344px;
+    border-radius: inherit;
+}
+
+.cleanersDestruction {
+    display: flex;
+}
+
+.cleanersRate {
+    display: flex;
+    align-items: center;
+}
+
+.cleanersChar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cleanersComplete {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.cleanersContent {
+    margin-top: 150px;
+    background: #4E4A4A;
+    font-family: "Marck Script", sans-serif;
+    color: white;
+    font-size: 32px;
+    border-radius: 15px;
+}
+
+.cleanersName {
+    transition: .3s;
+}
+
+.cleanersWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.cleanersName:hover {
+    margin-top: 10px;
+    transform: scale(1.2);
+}
+
+.footerBg {
+    background: #333333;
+    height: 450px;
 }

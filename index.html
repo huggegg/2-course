@@ -8,8 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&display=swap" rel="stylesheet">
-    
     <title>Мойдодыр</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <header class="header">
@@ -22,8 +22,8 @@
                 </div>
                 <nav class="nav">
                     <a href="#" class="nav__link">О нас</a>
-                    <a href="#" class="nav__link">Преимущества</a>
-                    <a href="#" class="nav__link">Контакты</a>
+                    <a href="#services" class="nav__link">Услуги</a>
+                    <a href="#cleaners" class="nav__link">Контакты</a>
                     <a href="#" class="nav__link">8(968)94620-77</a>
                 </nav>
             </div>
@@ -88,7 +88,7 @@
         
     </header>
 
-    <section class="services">
+    <section class="services" id="services">
         <div class="container">
             <div class="servicesBg">
                 <div class="sectionCharter">Услуги</div>
@@ -140,7 +140,7 @@
         </div>
     </section>
 
-    <section class="order">
+    <section class="order" id="order">
         <div class="container">
             <div class="orderBg">
                 <div class="sectionCharter">Как заказать клининг?</div>
@@ -170,7 +170,7 @@
         </div>
     </section>
 
-    <section class="galeri">
+    <section class="galeri" id="galeri">
         <div class="galeriBg">
             <div class="sectionCharter">Галереея</div>
             <div class="galeriWrap">
@@ -190,20 +190,56 @@
         </div>
     </section>
 
-    <section class="cleaners">
+    <section class="cleaners" id="cleaners">
         <div class="cleanersBg">
-            <div class="cleanersTitle"></div>
-            <div class="cleanersText"></div>
+            <div class="cleanersAllText">
+                <div class="cleanersTitle">Проверенные клинеры</div>
+                <div class="cleanersText">Все клинеры проходят тщательный отбор и профессиональный инструктаж</div>
+            </div>
+            <div class="cleanersWrap">
             <div class="cleanersContent">
-                <div class="cleanersImg"></div>
-                <div class="cleanersName"></div>
-                <div class="cleanersDestruction">
-                    <div class="cleanerRate"></div>
-                    <div class="cleanerComplete"></div>
+                <img class="cleanersImg" src="img/firstCleaner.jpg" alt="">
+                <div class="cleanersChar">
+                    <div class="cleanersName">Diana</div>
+                    <div class="cleanersDestruction">
+                        <div class="cleanersRate"><img src="img/svg/star.svg" alt=""> 4.9</div>
+                        <div class="cleanersComplete">120 уб.</div>
+                    </div>
                 </div>
+                </div>
+
+                <div class="cleanersContent">
+                    <img class="cleanersImg" src="img/secondCleaner.jpg" alt="">
+                    <div class="cleanersChar">
+                        <div class="cleanersName">Alisa</div>
+                        <div class="cleanersDestruction">
+                            <div class="cleanersRate"><img src="img/svg/star.svg" alt=""> 4.9</div>
+                            <div class="cleanersComplete">120 уб.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cleanersContent">
+                    <img class="cleanersImg" src="img/thirdCleaner.jpg" alt="">
+                    <div class="cleanersChar">
+                        <div class="cleanersName">Petrovich</div>
+                        <div class="cleanersDestruction">
+                            <div class="cleanersRate"><img src="img/svg/star.svg" alt=""> 4.9</div>
+                            <div class="cleanersComplete">120 уб.</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
             </div>
         </div>
     </section>
+
+    <footer class="footer">
+        <div class="footerBg">
+
+        </div>
+    </footer>
 
 </body>
 </html>
