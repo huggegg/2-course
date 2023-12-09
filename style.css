@@ -11,6 +11,10 @@
     src: url(fonts/DelaGothicOne-Regular.ttf);
 }
 
+@font-face {
+    font-family: "Moidodir";
+    src: url(fonts/Kablammo-Regular-VariableFont_MORF.ttf);
+}
 
 body {
     margin: 0;
@@ -79,8 +83,8 @@ body {
 .header__text {
     
     font-size: 40px;
-    font-family: 'Marck Script', serif;
-    color: white;
+    font-family: 'Moidodir', serif;
+    color: #be6136;
     text-decoration: none;
     align-items: center;
 }
@@ -437,6 +441,12 @@ body {
     font-size: 40px;
     font-weight: normal;
 
+}
+
+.footerCrTextNav {
+    text-decoration: none;
+    color: white;
+    font-family: "Moidodir", sans-serif;
 }
 
 @media (max-width: 685px) {
