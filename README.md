@@ -1,2 +1,2 @@
-# 2-course
-first check
+# Kulev Timur
+2-ая структура сайта
