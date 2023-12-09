@@ -20,6 +20,7 @@ body {
 .container {
     width: 100%;
     margin: 0 auto;
+    max-width: 1400px;
 }
 
 .header {
@@ -61,7 +62,7 @@ body {
 
 .header__intro {
     background: rgba(0, 0, 0, .4);
-    height: 100vh;
+    min-height: 100vh;
     background-image:  url(img/introBg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -119,6 +120,7 @@ body {
 .intro {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .introImg {
@@ -138,6 +140,7 @@ body {
     justify-content: right;
     margin: 0 auto;
     margin-top: 200px;
+    align-items: center;
 }
 
 .aboutTitle {
@@ -173,12 +176,13 @@ body {
     justify-content: center;
     align-items: center;
     padding: 50px 0;
+    text-align: center;
 }
 
 .servicesCart {
     width: 288px;
     background: white;
-    height: 320px;
+    height: 340px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -317,6 +321,7 @@ body {
     font-family: "Marck Script", sans-serif;
     font-size: 48px;
     padding-top: 80px;
+    text-align: center;
 }
 
 .cleanersText {
@@ -383,5 +388,130 @@ body {
 
 .footerBg {
     background: #333333;
-    height: 450px;
+    min-height: auto;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-family: "Marck Script", sans-serif;
+    font-size: 40px;
+    padding-top: 20px;
+}
+
+.footerText {
+    font-size: 40px;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    margin-top: 20px;
+    opacity: .7;
+    transition: .2s;
+}
+
+.footerText:hover {
+    opacity: 1;
+}
+
+.footerText > img {
+    margin-right: 15px;
+}
+
+.footerHr {
+    width: 80%;
+    margin-top: 30px;
+}
+
+.footerCr {
+    display: flex;
+    color: white;
+    font-family: "Marck Script", sans-serif;
+    margin-left: 77px;
+    
+}
+
+.footerCrText {
+    font-size: 40px;
+    font-weight: normal;
+
+}
+
+@media (max-width: 685px) {
+    .aboutBtn {
+        margin-bottom: 20px;
+        padding: 5px 40px;
+    }
+
+    .aboutTitle {
+        font-size: 20px;
+        font-weight: 700;
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav {
+        font-size: 20px;
+    }
+
+    .introSection {
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        margin: 0 auto; 
+    }
+
+    .introFeatures {
+        margin-left: 0;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    .containerServices {
+        justify-content: center;
+    }
+
+    .footerContent {
+        font-size: 20px;
+    }
+    
+    .footerText {
+        font-size: 20px;
+    }
+
+    .intro {
+        margin-top: 20px;
+    }
+
+    .sectionCharter {
+        font-size: 45px;
+    }
+
+    .orderCart {
+        margin-top: 100px;
+    }
+
+    .galeriTitle {
+        font-size: 40px;
+    }
+
+    .galeriContent {
+        margin-bottom: 40px;
+    }
+
+    .cleanersText {
+        font-size: 28px;
+    }
+
+    .cleanersContent {
+        margin-bottom: 30px;
+    }
+
+    .header__logo__svg {
+        display: none;
+    }
 }
