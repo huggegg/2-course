@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: "Marck Script";
-    src: url(fonts/MarckScript-Regular.ttf);
+    src: url(fonts/Philosopher-Regular.ttf);
 }
 
 @font-face {
@@ -145,13 +145,15 @@ body {
     margin: 0 auto;
     margin-top: 200px;
     align-items: center;
+    text-align: center;
 }
 
 .aboutTitle {
     color: white;
     font-family: 'Marck Script', serif;
-    font-size: 32px;
+    font-size: 40px;
     margin-bottom: 45px;
+    font-weight: 700;
 }
 
 .aboutBtn {
@@ -181,6 +183,7 @@ body {
     align-items: center;
     padding: 50px 0;
     text-align: center;
+    font-weight: 600;
 }
 
 .servicesCart {
@@ -253,6 +256,7 @@ body {
     justify-content: space-between;
     margin-top: 200px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .orderSvg {
@@ -287,17 +291,21 @@ body {
 }
 
 .galeriImg:hover {
-    margin-top: 30px;
+    margin-top: 40px;
     transform: scale(1.2);
 }
 
+
+
 .galeriTitle {
-    color: white;
+    color: black;
     font-size: 48px;
     font-family: 'Marck Script', serif;
     text-align: center;
     opacity: 0.8;
     transition: .5s;
+    margin-bottom: 10px;
+    
 }
 
 .galeriTitle:hover {
@@ -313,6 +321,7 @@ body {
 .cleanersBg{
     min-height: 110vh;
     background-image: url(img/cleanersBg.jpg);
+    
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -326,6 +335,11 @@ body {
     font-size: 48px;
     padding-top: 80px;
     text-align: center;
+}
+
+.cleanersTitle {
+    font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .cleanersText {
@@ -405,7 +419,7 @@ body {
 }
 
 .footerText {
-    font-size: 40px;
+    font-size: 24px;
     font-weight: normal;
     display: flex;
     align-items: center;
@@ -456,7 +470,7 @@ body {
     }
 
     .aboutTitle {
-        font-size: 20px;
+        font-size: 32px;
         font-weight: 700;
         width: 400px;
         display: flex;
