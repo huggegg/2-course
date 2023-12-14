@@ -193,6 +193,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     justify-content: center;
     font-family: 'Marck Script', serif;
     color: black;
@@ -207,12 +208,11 @@ body {
     font-size: 32px;
     margin-top: 15px;
     width: 80%;
-    text-align: center;
+    
 }
 
 .servicesText {
     font-size: 20px;
-    width: 266px;
     margin-top: 15px;
     margin-bottom: 40px;
     height: 50px;
@@ -400,7 +400,7 @@ body {
 }
 
 .cleanersName:hover {
-    margin-top: 10px;
+    
     transform: scale(1.2);
 }
 
@@ -463,16 +463,51 @@ body {
     font-family: "Moidodir", sans-serif;
 }
 
+.footerNavImg {
+    display: none;
+}
+
+.footerNav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navImg {
+    display: none;
+}
+
 @media (max-width: 685px) {
     .aboutBtn {
         margin-bottom: 20px;
         padding: 5px 40px;
     }
 
+    .footerTextImg {
+        display: none;
+    }
+
+    .navImg {
+        display: block;
+        margin-left: 5px;
+    }
+
+    .nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .nav__link {
+        display: none;
+    }
+
     .aboutTitle {
         font-size: 32px;
         font-weight: 700;
-        width: 400px;
+        
         display: flex;
         align-items: center;
         justify-content: center;
@@ -537,5 +572,17 @@ body {
 
     .header__logo__svg {
         display: none;
+    }
+
+    .footerNavText {
+        display: none;
+    }
+
+    .footerNavImg {
+        display: block;
+    }
+
+    .footerCr {
+        margin-left: 30px;
     }
 }
